@@ -8,5 +8,8 @@
 inputString = input("Please enter a string: ")
 
 # The task requires that the second letter of this string be output so whitespace is stripped
-print(inputString.replace(" ","") [::-2])
+#print(inputString.replace(" ","") [::-2])
+
+# Amendment - example on page shows output with whitespace and punctuation marks
+print(inputString [::-2])
 
