@@ -4,9 +4,9 @@
 # Author: Kieran Mullany
 # Version 1
 
+# Take in an input string and assign it to variable "inputString"
 inputString = input("Please enter a string: ")
-#inputString.replace(" ","")
-print(inputString)
-print(inputString.replace(" ",""))
+
+# The task requires that the second letter of this string be output so whitespace is stripped
 print(inputString.replace(" ","") [::-2])
 
